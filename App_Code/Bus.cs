@@ -6979,7 +6979,10 @@
                         }
                         else
                         {
-                            string baseurl = "http://roundsms.com/api/sendhttp.php?authkey=Y2U3NGE2MGFkM2V&mobiles=" + phonenumber + "&message=Dear%20" + BranchName + "%20Your%20indent%20for%20Date%20" + Date + "%20,%20" + ProductName + "Total%20Ltrs =" + TotalQty + "&sender=VYSNVI&type=1&route=2"; 
+
+                            string baseurl = "http://smsatm.net/v3/api.php?username=vaishnavi&apikey=273fee3af464032f2211&senderid=Vysnvi&templateid=1507164603279547820&mobile=" + phonenumber + "&message=" + BranchName + ",%20Indent%20For%20Date:" + Date + "%20Completed" + ProductName + ";%20TotalQty" + TotalQty + "Sri%20vyshnavi%20foods%20pvt%20ltd";
+                            //string baseurl = "http://smsatm.net/v3/api.php?username=vaishnavi&apikey=273fee3af464032f2211&senderid=Vysnvi&templateid=1507164603279547820&mobile=7013732814&message=Dear%20" + BranchName + "%20Your%20indent%20for%20Date%20" + Date + "%20,%20" + ProductName + "Total%20Ltrs =" + TotalQty + ""; 
+                            //string baseurl = "http://roundsms.com/api/sendhttp.php?authkey=Y2U3NGE2MGFkM2V&mobiles=" + phonenumber + "&message=Dear%20" + BranchName + "%20Your%20indent%20for%20Date%20" + Date + "%20,%20" + ProductName + "Total%20Ltrs =" + TotalQty + "&sender=VYSNVI&type=1&route=2"; 
 
                            // string baseurl = "http://www.smsstriker.com/API/sms.php?username=vaishnavidairy&password=vyshnavi@123&from=VFWYRA&to=" + phonenumber + "&msg=Dear%20" + BranchName + "%20Your%20indent%20for%20Date%20" + Date + "%20,%20" + ProductName + "Total%20Ltrs =" + TotalQty + "&type=1";
                             Stream data = client.OpenRead(baseurl);
